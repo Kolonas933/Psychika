@@ -45,11 +45,6 @@ h1 {
     margin-top: 100px;
 }
 
-p {
-    font-size: 2rem;
-    margin-top: 60px;
-    text-align: bottom;  
-}
 
 ul {
     list-style-type: disc;
@@ -98,11 +93,8 @@ h6 {
     text-align: center;
 }
 
-h5 {
-    font-size: 6rem;
-    margin-top: 0px;  
-    margin-bottom: 0px; 
-}
+
+
 
 h3 {
     text-align: center;
@@ -123,7 +115,7 @@ h4 {
     top: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 700px;
+    grid-template-rows: 200px 270px;
     place-items: center;
 }
 
@@ -141,10 +133,56 @@ h4 {
         transition: 0.2s;
     }
 
+     .grid h5 {
+        text-align: center;
+        width: 75%;
+        font-size: 21px;
+     }
+
+
     .grid a:hover{
         transform: scale(1.1);
     }
 
+.text1{
+    position: relative;
+    display:flex;;;;;;;;;;;;;;;;;
+    justify-content: center;
+    top: 130px;
+}
+
+.sekce2 {
+    position: relative;
+    display:flex;;;;;;;;;;;;;;;;;
+    justify-content: center;
+    top: 350px;
+
+}
+
+.divtext2 h1 {
+text-align: center;
+}
+
+
+.divtext2 p {
+text-align: center;
+font-size: 28px;
+padding: 0 90px;
+}
+
+.sekce3 {
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+
+
+.content3 {
+text-align: center;
+
+
+}
     @font-face {
         font-family: "Lexend";
         src: url("fonts/Lexend-Regular.woff2") format("woff2"), /* Modern browsers */

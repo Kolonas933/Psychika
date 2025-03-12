@@ -9,6 +9,7 @@
     border-style: groove;
     border-color: rgb(255, 227, 227);
     border-width: 2px 6px 2px 6px;
+    z-index: 10;
 }
 
 /*popisuje tlacitka navbaru*/
